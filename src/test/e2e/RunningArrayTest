@@ -1,1 +1,23 @@
-Only click right on file ArrayTest.py and
+Hello everybody! the ArrayTest File is structured with two Test Cases:
+
+the first one for when the index is sent correctly for the each of the rows of the table according to the parameter
+of the challenge on the sum of the left side and the right side matching each of the sums
+taking the evaluated index as a starting point.
+
+the other (Second test) is to evaluate if the web site shows a correct alert when it sends an incorrect answer about the
+index of each of the rows of the table taking into account the parameter to be
+evaluate in the challenge
+
+
+::::::::::::: For the execution of the tests it is necessary to follow the following steps :::::::::::::::::
+
+1. Open the terminal in the IDE
+2. Go to the path /src/test/e2e/
+3. Execute this command: python -m unittest ArrayTest.py
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::: IMPORTANT:::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+The first Test, contains a backend Error, because when trying to connect the server to send the
+the endpoint "https://eqe90bcod2.execute-api.eu-west-1.amazonaws.com/live/ECSD-QA-tech-test" I don't receive
+response from the server, in the browser console network appears a status (failed), so for this reason the first
+Test returns Fail, but the result of the sum and the value of the index is correct.
