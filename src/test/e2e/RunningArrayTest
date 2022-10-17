@@ -11,7 +11,7 @@ evaluate in the challenge
 
 ::::::::::::: For the execution of the tests it is necessary to follow the following steps :::::::::::::::::
 
-1. Open the terminal in the IDE
+1. Open the terminal CMD or in the IDE
 2. Go to the path /src/test/e2e/
 3. Execute this command: python -m unittest ArrayTest.py
 
